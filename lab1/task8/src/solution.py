@@ -18,7 +18,6 @@ def bubble_sort(second_line, first_line):
                     file.write('\n'.join(st))
     return second_line
 
-
 data = []
 with open("input.txt", 'r') as file:
     first_line = int(file.readline().rstrip('\n'))
